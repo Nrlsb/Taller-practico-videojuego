@@ -182,7 +182,7 @@ function setCanvasSize() {
         canvasSize = innerHeight * 0.8;
     }
 
-    canvasSize = Number(canvasSize.toFixed(0));
+    canvasSize = Number(canvasSize.toFixed(3));
 
     canvas.setAttribute('width', canvasSize);
     canvas.setAttribute('height', canvasSize);
